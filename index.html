@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="src/styles.css" />
+    <title>Tower Defense</title>
+</head>
+<body>
+  <div class="layout">
+    <div class="title">Moon Defense</div>
+    <!-- background img -->
+    <img src="./dist/sprites/moon.jpg" alt="moon" class="moon">
+    
+    <!-- controls modal -->
+    <button id="myBtn">How To Play</button>
+     
+    <div id="myModal" class="modal">
+     
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <img src="./dist/sprites/SquidwardStory.png" alt="squidward" class="modalImg">
+        <span>
+          <p>Hi im Squidward I've recently moved here to the moon to get away from my annoying neighbors spongebob and patrick.
+           Unfortunately for me one of them has followed me here. I need your help to keep them away from my house.
+           If you wouldn't mind placing these clones of mine by clicking in the yellow box im sure
+           the music they play will keep patrick at bay 
+          </p>
+        </span>
+      </div>
+    </div>
+    <!-- game box -->
+      <canvas id="canvas"></canvas>
+      <img src="./dist/sprites/Home.png" alt="home" class="home">
+      <script src="dist/main.js" ></script>
+    </div>
+</body>
+</html>
